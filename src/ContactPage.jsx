@@ -38,7 +38,7 @@ export default function Chat() {
   }, [selectedUserId]);
   function connectToWs() {
     // const ws = new WebSocket('ws://localhost:4040');
-    const ws = new WebSocket('wss://vchat-back-007.onrender.com');
+    const ws = new WebSocket('wss://neww-mesgar10.onrender.com');
     setWs(ws);
     ws.addEventListener('message', handleMessage);
     ws.addEventListener('close', () => {
