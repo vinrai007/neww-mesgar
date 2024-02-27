@@ -190,7 +190,7 @@ function handleMessage(ev) {
       setTimeout(() => {
         // After 5 seconds, set loading to false
         setLoading(false);
-      }, 5000);      
+      }, );      
     });
   }, [offlinePeople]); 
 

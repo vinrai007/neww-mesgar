@@ -139,7 +139,7 @@ export default function Chat() {
       setTimeout(() => {
         // After 5 seconds, set loading to false
         setLoading(false);
-      }, 5000);      
+      }, );      
     });
    }, [offlinePeople]);   
   
