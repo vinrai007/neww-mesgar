@@ -197,7 +197,7 @@ const MessagePage = () => {
             ))}
         </div>
         <div className='z-{-1}'>
-          <div className="overflow-y-scroll absolute top-10 left-3 right-0 bottom-14 mt-16">
+          <div className="overflow-y-scroll absolute top-10 left-3 right-0 bottom-28 mt-16">
             {messagesWithoutDupes.map((message, index) => (
               <div key={index} className={message.sender === selectedUserId ? 'text-left pr-10' : 'text-right pl-10 pr-2'}>
                 <div className={`text-left inline-block p-1 my-2 rounded-md text-sm max-w-72 ${message.sender === selectedUserId ? 'bg-white text-gray-500' : 'bg-blue-500 text-white'}`}>
@@ -228,7 +228,7 @@ const MessagePage = () => {
             ))}
             <div ref={divUnderMessages}></div>
           </div>
-          <div className='absolute bottom-0 pl-3 pr-4 pb-2 pt-1 mt-5 w-full '>
+          <div className='absolute bottom-0 pl-3 pr-4 pb-2 pt-1 mt-5 mb-14 w-full '>
             {!!selectedUserId && (
               <form className="flex gap-2 " onSubmit={sendMessage}>
                 <input
