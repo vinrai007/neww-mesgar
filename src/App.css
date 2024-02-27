@@ -1,0 +1,113 @@
+.bodyy {
+  max-width: 100%;
+}
+
+div#offcanvasNavbar-expand-0 {
+  max-width: 65%;
+}
+
+.webar a {
+  color: #3085C3;
+}
+
+.webar {
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.offhead {
+  color: #3085C3;
+  font-size: 30px;
+
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 400;
+}
+
+.offcanvas-header {
+  padding-bottom: 0px;
+}
+
+.image {
+  max-width: 250px;
+
+  /* max-height: 100px; */
+}
+
+.msg {
+  max-width: 100%;
+}
+
+.msgs {
+  max-width: 80%;
+  max-height: 100px;
+  /* max-width: 100px; */
+}
+
+.searchbar {
+  width: 90%;
+  background-color: #E9F6FF;
+}
+
+.searchuser {
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  /* background-color: #E9F6FF;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px; */
+}
+
+.searchresults {
+  margin-left: 10px;
+  width: 90%;
+  background-color: #E9F6FF;
+  /* margin-top: 10px; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.modals {
+  max-width: 90%;
+  /* padding-left: 10px; */
+  margin: auto;
+  /* max-height: 300px; */
+}
+
+.modal {
+  /* width: auto;
+  height: auto; */
+  margin: auto ;
+  /* padding-left: 20%; */
+  /* justify-content: left; */
+  /* margin: 100px auto 100px auto; */
+}
+
+.toogleitems {
+  display: grid;
+  background-color: #000;
+  grid-template-columns: 1fr;
+}
+
+.toogleitems:hover {
+  color: #3085C3
+}
+
+.name {
+  color: #3085C3;
+  padding-left: 5px;
+}
+.Group-page{
+  color: #F9F07A;
+  background-color: #344955;
+  height: 100vh;
+  text-align: center;
+  /* padding-top: 100px; */
+}
+.Group-page h1{
+  padding: 100px 50px;
+}
