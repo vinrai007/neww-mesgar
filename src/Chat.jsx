@@ -49,8 +49,8 @@ const CHATBOT_USER = {
     connectToWs();
   }, [selectedUserId]);
   function connectToWs() {
-    const ws = new WebSocket('ws://localhost:4040');
-    // const ws = new WebSocket('ws://vchat-backend-cs72.onrender.com');
+    // const ws = new WebSocket('ws://localhost:4040');
+    const ws = new WebSocket('wss://vchat-back-007.onrender.com');
     setWs(ws);
     ws.addEventListener('message', handleMessage);
     ws.addEventListener('close', () => {
@@ -384,14 +384,14 @@ useEffect(() => {
             className="text-sm bg-blue-100 py-1 px-2 text-gray-500 border rounded-sm">logout</button>
         </div> */}
             {/* Display the chatbot contact */} 
-                  <Contact
+                  {/* <Contact
                   key={CHATBOT_USER._id}
                   id={CHATBOT_USER._id}
                   online={true}  // Assuming the chatbot is always considered offline
                   username={CHATBOT_USER.username}
                   // onClick={() => setSelectedUserId(CHATBOT_USER._id)}
                   selected={CHATBOT_USER._id === selectedUserId}
-                />        
+                />         */}
       </div>
       <div className="flex flex-col bg-blue-50 w-2/3 p-2 pt-0">
         <div className="flex-grow">

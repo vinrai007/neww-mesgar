@@ -39,7 +39,9 @@ const MessagePage = () => {
   }, [selectedUserId]);
 
   function connectToWs() {
-    const ws = new WebSocket('ws://localhost:4040');
+    // const ws = new WebSocket('ws://localhost:4040');
+    const ws = new WebSocket('wss://vchat-back-007.onrender.com');
+
     setWs(ws);
     ws.addEventListener('message', handleMessage);
     ws.addEventListener('close', () => {
